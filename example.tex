@@ -1,13 +1,15 @@
-\documentclass{article}
+\documentclass[border=5mm]{standalone}
 
 \usepackage{dice}
 
 \begin{document}
-Hello, \die[black]4, \die+, \die-, \die2.
+\begin{minipage}{20em}
+  Hello, \die[black]4, \die+, \die-, \die2.
 
-\large
-Hello, \die[black]4, \die+, \die[black]-, \die2.
+  \Large
+  Hello, \die[black]4, \die+, \die[black]-, \die2.
 
-\Huge
-Hello, \die[black]4, \die+, \die-, \die2.
+  \Huge
+  Hello, \die[black]4, \die+, \die-, \die2.
+\end{minipage}
 \end{document}
