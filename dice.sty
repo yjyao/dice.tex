@@ -2,8 +2,6 @@
 \RequirePackage{epsdice}
 \RequirePackage{xparse}
 
-\makeatletter
-
 \def\diepattern@plus
 {%
   \draw (0.5-0.25,0.5) -- (0.5+0.25,0.5);
@@ -25,8 +23,6 @@
     \csname diepattern@#2\endcsname
   \end{tikzpicture}%
 }
-
-\makeatother
 
 \ExplSyntaxOn
 
